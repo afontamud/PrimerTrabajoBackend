@@ -6,7 +6,7 @@ class usuario {
         this.mascotas = mascotas
     }
 
-    getfullname(){
+    getfullname(){ 
     
     }
     
@@ -19,3 +19,9 @@ class usuario {
 }
 
 
+const user1 = {nombre:'leo', apellido: 'Sotero', libros, mascotas: perro}
+
+const user2 = {nombre: 'Laura', apellido: 'Lovo', libros, mascotas: gato}
+
+console.log(user1)
+console.log(user2)
