@@ -1,16 +1,21 @@
-//const delay = ret => {for (let i=0; i<ret*3e6; i++){}}
+class usuario {
+    constructor (nombre, apellido, libros, mascotas) {
+        this.nombre = nombre
+        this.apellido = apellido
+        this.libros = libros
+        this.mascotas = mascotas
+    }
 
-const delay = ret => {for(let i=0; i<ret*3e6; i++);}
-
-function hacerTarea(num) {
-    console.log('haciendo tarea ' + num);
-    delay(100);
+    getfullname(){
+    
+    }
+    
+    
+    addMascota(string)
+    
+    countMascotas() {
+        return Contador.countMascotas;
+    }
 }
 
-console.log('inicio de tareas');
-hacerTarea(1);
-hacerTarea(2);
-hacerTarea(3);
-hacerTarea(4);
-console.log('fin de tareas');
-console.log('otras tareas ...');
+
